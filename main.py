@@ -21,20 +21,6 @@ async def ping(ctx):
 
 """
 
-"""
-# 8ball command
-# ask question using 8ball, test, or _8ball 
-# generates random answers from the given responses
-@master.command(aliases=['8ball', 'test'])
-async def _8ball(ctx, *, question):
-    responses = ['It is certain.',
-                 'It is decidely so.',
-                 'Without a doubt.',
-                 'Yes - Definitely!',
-                 'You may rely on it.']
-    await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
-"""
-
 
 # clear command
 # clears amount(preset value) of lines including clear command 
